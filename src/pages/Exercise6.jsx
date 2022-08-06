@@ -11,7 +11,7 @@ function Exercise6() {
       }
 
   return (
-    <div className='w-full max-w-xs'>
+    <div className='w-full flex justify-center items-center'>
         <form className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4'>
             <div className='mb-4'>
                 <label className="block text-gray-700 text-sm font-bold mb-2" for="firstName">
