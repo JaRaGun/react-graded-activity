@@ -1,12 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
 
 @layer base{
   li{
     @apply p-4 m-5
   }
   button{
-    @apply text-sm p-2 bg-blue-500 rounded-lg
+    @apply text-sm p-2 bg-blue-300 rounded-lg
   }
 }
