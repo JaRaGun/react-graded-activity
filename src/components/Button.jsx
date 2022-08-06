@@ -9,7 +9,7 @@ const handleClick = () => {
     //Button
   return (
     <>
-        <button onClick={handleClick}>{name}</button>
+        <button className='mx-1' onClick={handleClick}>{name}</button>
     </>
   )
 }
