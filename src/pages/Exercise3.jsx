@@ -8,7 +8,7 @@ function Exercise3() {
     }
   return (
     <div className='h-screen w-full flex flex-col justify-start items-center'>
-        <h3>You clicked {count} times</h3>
+        <h3>You clicked the button {count} times</h3>
         <button onClick={clickCount}>Click me</button>
     </div>
   )
