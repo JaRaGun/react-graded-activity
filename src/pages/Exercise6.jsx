@@ -7,6 +7,9 @@ function Exercise6() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        if(firstname === "" || lastname === "")
+            alert('Please type firstname and lastname')
+        else
         alert(`Hello ${firstname + " " + lastname}`);
       }
 

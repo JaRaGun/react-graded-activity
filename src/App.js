@@ -18,6 +18,7 @@ function App() {
         <Route path='exercise4' element={<Exercise4/>}/>
         <Route path='exercise5' element={<Exercise5/>}/>
         <Route path='exercise6' element={<Exercise6/>}/>
+        <Route/>
       </Routes>
     </Router>
   
